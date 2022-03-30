@@ -77,7 +77,7 @@ def funcionPuntos(repeticiones, corridas, conjuntoValores):
             y.append(valoresxCorrida[i])
         plt.scatter(x,y)
     plt.xlabel("Numero de tiradas")
-    plt.ylabel("Frecuencia Relativa")
+    plt.ylabel("Valores de la Ruleta")
     plt.title("Evaluacion de los resultados aleatorios sobre el conjunto de valores aleatorios")
 
 def RuletaDesvio(tir, corr, conjuntoValores):
